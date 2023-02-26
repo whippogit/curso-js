@@ -1,0 +1,46 @@
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+div {
+    position: relative;;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    margin: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+h1 {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.w-boton {
+  width: 25%;
+  margin: auto;
+}
+
+.fondo-transparente {
+  background-color: transparent;
+}
+
+/**background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(222,225,71,1) 0%, rgba(204,226,46,1) 11%, rgba(0,219,222,1) 63%, rgba(252,0,255,1) 95%);**/
